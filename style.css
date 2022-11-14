@@ -1,0 +1,46 @@
+
+.container{
+    flex-direction: row;
+    border: solid 5px black;
+    position: fixed;
+    width: 400px;
+    height: 400px;
+}
+
+.chat-header{
+    font-size: 20px;
+color: aliceblue;    
+height: 50px;
+background-color: blue;
+}
+
+
+.chat-body{
+    height: 300px;
+}
+
+
+.chat-input{
+    flex-direction: row;
+    height: 50px;
+    display: flex;
+    align-items:center;
+    border: solid 1px black;
+}
+
+.input-sec{
+    flex: 9px;
+}
+
+.enviar{
+    padding-right: 4px;
+
+}
+#txt{
+    line-height: 30px;
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    caret-color: black;
+    width: 100%;
+}
