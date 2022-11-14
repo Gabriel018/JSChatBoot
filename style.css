@@ -17,6 +17,7 @@ background-color: blue;
 
 .chat-body{
     height: 300px;
+    font-size: 20px;
 }
 
 
@@ -29,18 +30,27 @@ background-color: blue;
 }
 
 .input-sec{
-    flex: 9px;
+    flex: 19px;
+    font-size: 30px;
 }
 
 .enviar{
     padding-right: 4px;
 
 }
-#txt{
+#txto{
     line-height: 30px;
     padding: 8px 10px;
+    font-size: 20px;
     border: none;
     outline: none;
     caret-color: black;
     width: 100%;
+}
+
+
+.user-messager{
+    background-color:beige;
+    width: max-content;
+    border-radius: 6px;
 }
