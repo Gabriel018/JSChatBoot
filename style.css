@@ -18,6 +18,8 @@ background-color: blue;
 .chat-body{
     height: 300px;
     font-size: 20px;
+    overflow-y: auto;
+
 }
 
 
@@ -45,12 +47,22 @@ background-color: blue;
     border: none;
     outline: none;
     caret-color: black;
+   
     width: 100%;
 }
 
 
 .user-messager{
+    padding: 5px;
     background-color:beige;
     width: max-content;
     border-radius: 6px;
+}
+
+.chatboot{
+    padding: 5px;
+    background-color:beige;
+    width: max-content;
+    border-radius: 6px;
+    background-color: aquamarine;
 }
