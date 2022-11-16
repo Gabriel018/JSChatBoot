@@ -7,7 +7,9 @@ enviar.addEventListener("click",()=> renderUserMenssager())
         const userInput = texto.value;
         texto.value = ''
         renderMenssagerEle(userInput,'usuario')
-        renderChatbootReponse(userInput)
+        setTimeout(() =>{
+            renderChatbootReponse(userInput)
+        },600)
     }
     const renderChatbootReponse = (userInput) =>{
       
